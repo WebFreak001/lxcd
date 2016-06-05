@@ -1,0 +1,34 @@
+{
+	"name": "lxc",
+	"description": "Deimos Bindings for lxc.",
+	"copyright": "Copyright © 2016, webfreak",
+	"license": "public domain",
+	"authors": [
+		"webfreak"
+	],
+	"dependencies": {},
+	"importPaths": [
+		"."
+	],
+	"libs": [
+		"lxc"
+	],
+	"configurations": [
+		{
+			"name": "library",
+			"targetType": "sourceLibrary"
+		},
+		{
+			"name": "lxc-test",
+			"targetType": "executable",
+			"sourcePaths": [
+				"test",
+				"."
+			],
+			"importPaths": [
+				"test",
+				"."
+			]
+		}
+	]
+}
